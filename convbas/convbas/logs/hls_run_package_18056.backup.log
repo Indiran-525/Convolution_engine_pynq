@@ -1,0 +1,57 @@
+  **** HLS Build v2025.1 6135595
+INFO: [HLS 200-2005] Using work_dir C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas'.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=convbas.cpp' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=tb.cpp' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=convbas' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'package.output.file=convbas' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/vitis-comp.json
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Wed Feb 18 23:58:52 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/hls_data.json outdir=C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/impl/ip srcdir=C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/impl/ip/misc
+INFO: Copied 7 verilog file(s) to C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/impl/ip/hdl/verilog
+INFO: Copied 7 vhdl file(s) to C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/impl/ip/drivers
+ipx::create_core: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 505.414 ; gain = 208.805
+INFO: Import ports from HDL: C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/impl/ip/hdl/vhdl/convbas.vhd (convbas)
+INFO: Add axi4lite interface s_axi_CTRL
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'K:/Vivado/2025.1/Vivado/data/ip'.
+INFO: Add axi4full interface m_axi_gmem0
+INFO: Add axi4full interface m_axi_gmem1
+INFO: Add axi4full interface m_axi_gmem2
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/impl/ip/component.xml
+INFO: Created IP archive C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/impl/ip/xilinx_com_hls_convbas_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 18 23:59:22 2026...
+INFO: [HLS 200-802] Generated output file convbas/convbas.zip
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 37.698 seconds; peak allocated memory: 214.863 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 42s

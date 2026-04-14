@@ -1,0 +1,6 @@
+   Build using "K:/Vivado/2025.1/Vitis/win64/tools/vcxx/libexec/clang++"
+   Compiling tb.cpp_pre.cpp.tb.cpp
+   Compiling convbas.cpp_pre.cpp.tb.cpp
+   Compiling apatb_convbas.cpp
+   Compiling apatb_convbas_ir.ll
+   Generating cosim.tv.exe

@@ -1,0 +1,12 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../tb.cpp in debug mode
+   Generating csim.exe
+Running HLS Convolution Simulation...
+Output Matrix (3x3):
+70 70 70 
+70 70 70 
+70 70 70 
+TEST FAILED: Logic error! Found 9 incorrect values.
+ERR: [SIM 100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 3] *************** CSIM finish ***************

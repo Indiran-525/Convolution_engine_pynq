@@ -1,0 +1,30 @@
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:412:5: warning: Added loop label VITIS_LOOP_23_1:   [xilinx-label-all-loops]
+    for(int i=0; i<3; i++) {
+    ^~~
+    VITIS_LOOP_23_1: 
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:412:5: note: FIX-IT applied suggested code changes
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:413:9: warning: Added loop label VITIS_LOOP_24_2:   [xilinx-label-all-loops]
+        for(int j=0; j<3; j++) {
+        ^~~
+        VITIS_LOOP_24_2: 
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:413:9: note: FIX-IT applied suggested code changes
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:420:5: warning: Added loop label VITIS_LOOP_31_3:   [xilinx-label-all-loops]
+    for (int r = 1; r < H - 1; r++) {
+    ^~~
+    VITIS_LOOP_31_3: 
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:420:5: note: FIX-IT applied suggested code changes
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:421:9: warning: Added loop label VITIS_LOOP_32_4:   [xilinx-label-all-loops]
+        for (int c = 1; c < W - 1; c++) {
+        ^~~
+        VITIS_LOOP_32_4: 
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:421:9: note: FIX-IT applied suggested code changes
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:425:13: warning: Added loop label VITIS_LOOP_36_5:   [xilinx-label-all-loops]
+            for (int kr = 0; kr < 3; kr++) {
+            ^~~
+            VITIS_LOOP_36_5: 
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:425:13: note: FIX-IT applied suggested code changes
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:426:17: warning: Added loop label VITIS_LOOP_37_6:   [xilinx-label-all-loops]
+                for (int kc = 0; kc < 3; kc++) {
+                ^~~
+                VITIS_LOOP_37_6: 
+C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp:426:17: note: FIX-IT applied suggested code changes

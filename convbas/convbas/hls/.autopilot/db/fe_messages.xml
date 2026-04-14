@@ -1,0 +1,45 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=convbas" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="convbas.cpp:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=in offset=slave bundle=gmem0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="convbas.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=out offset=slave bundle=gmem1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="convbas.cpp:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=w_kernel offset=slave bundle=gmem2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="convbas.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="convbas.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=H bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="convbas.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=W bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="convbas.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=in bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="convbas.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=out bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="convbas.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convbas" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=w_kernel bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="convbas.cpp:36:30" msg_body="Loop 'VITIS_LOOP_36_5' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_36_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="convbas.cpp:37:34" msg_body="Loop 'VITIS_LOOP_37_6' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_37_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="convbas.cpp:10:0" msg_body="Unrolling loop 'VITIS_LOOP_36_5' (convbas.cpp:36:30) in function 'convbas' completely with a factor of 3">
+        <args Factor="3" LoopLoc="convbas.cpp:36:30" LoopName="VITIS_LOOP_36_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="convbas.cpp:10:0" msg_body="Unrolling loop 'VITIS_LOOP_37_6' (convbas.cpp:37:34) in function 'convbas' completely with a factor of 3">
+        <args Factor="3" LoopLoc="convbas.cpp:37:34" LoopName="VITIS_LOOP_37_6"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

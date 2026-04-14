@@ -1,0 +1,58 @@
+---
+MainSourceFile:  'C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/.autopilot/db/convbas.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_23_1:  '
+    FileOffset:      23
+    FilePath:        convbas.cpp
+    Replacements:    
+      - FilePath:        'C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp'
+        Offset:          17634
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_23_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_24_2:  '
+    FileOffset:      24
+    FilePath:        convbas.cpp
+    Replacements:    
+      - FilePath:        'C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp'
+        Offset:          17667
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_24_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_3:  '
+    FileOffset:      31
+    FilePath:        convbas.cpp
+    Replacements:    
+      - FilePath:        'C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp'
+        Offset:          17767
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_32_4:  '
+    FileOffset:      32
+    FilePath:        convbas.cpp
+    Replacements:    
+      - FilePath:        'C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp'
+        Offset:          17809
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_32_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_36_5:  '
+    FileOffset:      36
+    FilePath:        convbas.cpp
+    Replacements:    
+      - FilePath:        'C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp'
+        Offset:          17886
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_36_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_37_6:  '
+    FileOffset:      37
+    FilePath:        convbas.cpp
+    Replacements:    
+      - FilePath:        'C:\Users\indir\Desktop\Arm_SoC\Convbas\convbas\convbas\hls\.autopilot\db\convbas.pp.0.cpp'
+        Offset:          17935
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_37_6: '
+...

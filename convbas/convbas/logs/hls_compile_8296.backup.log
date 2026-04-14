@@ -1,0 +1,150 @@
+  **** HLS Build v2025.1 6135595
+INFO: [HLS 200-2005] Using work_dir C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=convbas.cpp' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=tb.cpp' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=convbas' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 4 seconds. CPU system time: 6 seconds. Elapsed time: 26.154 seconds; current allocated memory: 147.496 MB.
+INFO: [HLS 200-10] Analyzing design file 'convbas.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.919 seconds; current allocated memory: 150.027 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 137 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 117 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 103 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 100 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 100 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 101 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 101 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 101 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 101 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 101 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 99 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 99 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 98 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 98 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 118 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 114 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/indir/Desktop/Arm_SoC/Convbas/convbas/convbas/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-115] Multiple burst reads of length 9 and bit width 16 has been inferred on bundle 'gmem2'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (convbas.cpp:27:18)
+INFO: [HLS 214-115] Multiple burst writes of variable length and bit width 16 has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (convbas.cpp:31:22)
+INFO: [HLS 214-115] Multiple burst reads of length 3 and bit width 16 has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (convbas.cpp:37:26)
+INFO: [HLS 214-115] Multiple burst reads of length 3 and bit width 16 has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (convbas.cpp:41:26)
+INFO: [HLS 214-115] Multiple burst reads of length 3 and bit width 16 has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (convbas.cpp:45:26)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 11.457 seconds; current allocated memory: 152.414 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 152.414 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.166 seconds; current allocated memory: 156.578 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.207 seconds; current allocated memory: 157.938 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'convbas' (convbas.cpp:4:22)...8 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.326 seconds; current allocated memory: 178.914 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_31_1'(convbas.cpp:31:22) and 'VITIS_LOOP_32_2'(convbas.cpp:32:26) in function 'convbas' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_31_1' (convbas.cpp:31:22) in function 'convbas'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.24 seconds; current allocated memory: 182.250 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'convbas' ...
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln58_5) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln58_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln58_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln58_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln58) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_31_1_VITIS_LOOP_32_2'.
+WARNING: [HLS 200-880] The II Violation in module 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2' (loop 'VITIS_LOOP_31_1_VITIS_LOOP_32_2'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between bus read operation ('p2', convbas.cpp:37) on port 'gmem0' (convbas.cpp:37) and bus read operation ('p0', convbas.cpp:37) on port 'gmem0' (convbas.cpp:37).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2' (loop 'VITIS_LOOP_31_1_VITIS_LOOP_32_2'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between bus read operation ('p2', convbas.cpp:37) on port 'gmem0' (convbas.cpp:37) and bus read operation ('p0', convbas.cpp:37) on port 'gmem0' (convbas.cpp:37).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2' (loop 'VITIS_LOOP_31_1_VITIS_LOOP_32_2'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between bus request operation ('empty_22', convbas.cpp:41) on port 'gmem0' (convbas.cpp:41) and bus request operation ('empty_21', convbas.cpp:37) on port 'gmem0' (convbas.cpp:37).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2' (loop 'VITIS_LOOP_31_1_VITIS_LOOP_32_2'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between bus request operation ('empty_23', convbas.cpp:45) on port 'gmem0' (convbas.cpp:45) and bus request operation ('empty_21', convbas.cpp:37) on port 'gmem0' (convbas.cpp:37).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-885] The II Violation in module 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2' (loop 'VITIS_LOOP_31_1_VITIS_LOOP_32_2'): Unable to schedule bus read operation ('p7', convbas.cpp:45) on port 'gmem0' (convbas.cpp:45) due to limited memory ports (II = 7). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2' (loop 'VITIS_LOOP_31_1_VITIS_LOOP_32_2'): Unable to schedule bus read operation ('p8', convbas.cpp:45) on port 'gmem0' (convbas.cpp:45) due to limited memory ports (II = 8). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 9, Depth = 29, loop 'VITIS_LOOP_31_1_VITIS_LOOP_32_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.037 seconds; current allocated memory: 186.121 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.064 seconds; current allocated memory: 187.191 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'convbas' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 187.344 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.031 seconds; current allocated memory: 187.449 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2' pipeline 'VITIS_LOOP_31_1_VITIS_LOOP_32_2' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_AWUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2/m_axi_gmem1_0_BREADY' to 0.
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_16ns_16_4_1': 5 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_16s_16_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_31ns_32s_63_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'convbas_Pipeline_VITIS_LOOP_31_1_VITIS_LOOP_32_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.858 seconds; current allocated memory: 190.914 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'convbas' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'convbas/gmem0' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'convbas/gmem1' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'convbas/gmem2' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'convbas/in_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'convbas/out_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'convbas/H' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'convbas/W' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'convbas/w_r' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'convbas' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'in_r', 'out_r', 'H', 'W', 'w_r' and 'return' to AXI-Lite port CTRL.
+INFO: [RTGEN 206-100] Generating core module 'mul_31ns_31ns_62_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_32ns_63_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'convbas'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.559 seconds; current allocated memory: 196.055 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 2.694 seconds; current allocated memory: 200.574 MB.
+INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 3.766 seconds; current allocated memory: 207.250 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for convbas.
+INFO: [VLOG 209-307] Generating Verilog RTL for convbas.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 136.99 MHz
+INFO: [HLS 200-112] Total CPU user time: 7 seconds. Total CPU system time: 8 seconds. Total elapsed time: 54.659 seconds; peak allocated memory: 207.316 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 1s

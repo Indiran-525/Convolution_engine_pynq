@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas",
+    "arguments": [
+      "K:\\Vivado\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=K:\\Vivado\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=K:\\Vivado\\2025.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=convbas",
+      "-c",
+      "C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\convbas.cpp"
+    ],
+    "file": "C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\convbas.cpp"
+  },
+  {
+    "directory": "C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas",
+    "arguments": [
+      "K:\\Vivado\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=K:\\Vivado\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=K:\\Vivado\\2025.1\\Vitis\\include",
+      "-c",
+      "C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\tb.cpp"
+    ],
+    "file": "C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\tb.cpp"
+  }
+]

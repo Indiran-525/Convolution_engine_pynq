@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\convbas\\convbas.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "02/19/26 10:37:24",
+ "timestampMillis": "1771477644038",
+ "buildStep": {
+  "cmdId": "c9b8b6bc-d5d6-4b9d-a2ae-f281ab0307ac",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\convbas\\logs\\convbas.steps.log",
+  "commandLine": "K:/Vivado/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\hls_config.cfg --work_dir convbas ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\hls_config.cfg",
+   "--work_dir",
+   "convbas"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/19/26 10:37:24",
+ "timestampMillis": "1771477644038",
+ "status": {
+  "cmdId": "c9b8b6bc-d5d6-4b9d-a2ae-f281ab0307ac",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "02/19/26 10:37:26",
+ "timestampMillis": "1771477646736",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "convbas",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\convbas.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "02/19/26 10:37:26",
+ "timestampMillis": "1771477646737",
+ "buildStep": {
+  "cmdId": "f93ede07-7028-40cf-b10d-01abf34dcdc5",
+  "name": "",
+  "logFile": "C:/Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas\\convbas\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\indir\\Desktop\\Arm_SoC\\Convbas\\convbas"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/19/26 10:37:26",
+ "timestampMillis": "1771477646737",
+ "status": {
+  "cmdId": "f93ede07-7028-40cf-b10d-01abf34dcdc5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/19/26 10:37:27",
+ "timestampMillis": "1771477647861",
+ "status": {
+  "cmdId": "f93ede07-7028-40cf-b10d-01abf34dcdc5",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/19/26 10:37:27",
+ "timestampMillis": "1771477647939",
+ "status": {
+  "cmdId": "c9b8b6bc-d5d6-4b9d-a2ae-f281ab0307ac",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/19/26 10:37:27",
+ "timestampMillis": "1771477647940",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/19/26 10:37:27",
+ "timestampMillis": "1771477647940",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
